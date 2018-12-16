@@ -32,7 +32,6 @@ public class User {
 	private LocalDate registrationDate;
 	
 	@Column ( name = "user_password" )
-	@JsonIgnore
 	private String password;
 
 	public long getId() {
